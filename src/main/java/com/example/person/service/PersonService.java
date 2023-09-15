@@ -3,8 +3,6 @@ package com.example.person.service;
 import com.example.person.model.Person;
 import com.example.person.repository.PersonRepository;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 

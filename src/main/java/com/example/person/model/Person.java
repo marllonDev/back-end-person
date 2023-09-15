@@ -19,5 +19,11 @@ public class Person implements Serializable {
     private String name;
 
     @Column(nullable = false)
+    private String lastName;
+
+    @Column(nullable = false)
     private Integer age;
+
+    @Column(nullable = false)
+    private String email;
 }
